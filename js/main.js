@@ -28,8 +28,7 @@ submitBtn.addEventListener("click", function () {
     }
     let ticketPrice = finalPrice.toFixed(2);
 
-    document.getElementById("ticketCompleteName").innerHTML = name
-    document.getElementById("ticketType").innerHTML = surname
+    document.getElementById("ticketCompleteName").innerHTML = name + ' ' + surname
     document.getElementById("ticketDistance").innerHTML = km
     document.getElementById("ticketCode").innerHTML = ticketCode
     document.getElementById("ticketPrice").innerHTML = ticketPrice + '$'
