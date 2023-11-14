@@ -1,10 +1,6 @@
 - [js-biglietto-treno-form](#js-biglietto-treno-form)
   - [Consegna](#consegna)
-  - [Consegna bonus](#consegna-bonus)
-  - [Svolgimento base](#svolgimento-base)
-    - [Pagina da replicare](#pagina-da-replicare)
-    - [Analisi tecnica](#analisi-tecnica)
-    - [Risultato ottenuto](#risultato-ottenuto)
+  - [Grafica della pagina](#grafica-della-pagina)
 
 # js-biglietto-treno-form
 
@@ -23,12 +19,8 @@ Questo richiederà un minimo di ricerca.
 
 Potete trarre ispirazione dal biglietto / pagina qui di seguito allegata, altrimenti potete sbizzarirvi con la grafica come meglio vi pare per il vostro biglietto virtuale.
 
-## Consegna bonus
+## Grafica della pagina
 
-## Svolgimento base
+Si ha libertà di personalizzare la grafica della pagina, ma viene comunque lasciata una bozza da poter emulare.
 
-### [Pagina da replicare](./img/screenshot/exercise/)
-
-### [Analisi tecnica](./img/screenshot/analysis/)
-
-### [Risultato ottenuto](./index.html)
+<img src="./img/screenshot/exercise/screenshot.png" width="800">
