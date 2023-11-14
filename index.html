@@ -25,10 +25,7 @@
             <div class="container">
                 <h1 class="text-center">Calcolo prezzo biglietto</h1>
                 <div class="row border bg-white rounded g-2">
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                    </div>
+
                     <div class="col">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -51,6 +48,23 @@
                             </label>
                         </div>
                     </div>
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputSurname" class="form-label">Surname</label>
+                            <input type="password" class="form-control" id="inputSurname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputKm" class="form-label">Km da percorrere</label>
+                            <input type="number" class="form-control" id="inputKm">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
                 </div>
             </div>
         </div>
