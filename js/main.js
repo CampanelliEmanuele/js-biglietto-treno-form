@@ -10,5 +10,6 @@ submitBtn.addEventListener("click", function () {
     let km = document.getElementById("inputKm").value;
     let age = document.getElementById("inputAge").value;
 
+    document.getElementById("ticket").classList.remove("d-none");
 
 });
