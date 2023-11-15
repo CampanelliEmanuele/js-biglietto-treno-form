@@ -22,7 +22,7 @@
     <main>
         <div class="container-fluid bg-primary">
             <div class="container py-5">
-                <div class="row border bg-white rounded g-2">
+                <div class="row border bg-white rounded g-2 px-3">
                     <h1 class="text-center">Calcolo prezzo biglietto</h1>
 
                     <form>
@@ -45,6 +45,7 @@
                         </div>
 
                         <!-- AGE INPUT -->
+                        <label for="submitBtn" class="form-label">Age range</label>
                         <select class="form-select" id="inputAge">
                             <option selected>Select age range</option>
                             <option value="underage">Underage</option>
@@ -52,15 +53,15 @@
                             <option value="overAge">Over 65</option>
                         </select>
 
-                        <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
+                        <button type="submit" class="btn btn-primary my-3" id="submitBtn">Submit</button>
                     </form>
 
                 </div>
 
-                <div class="row border bg-white rounded g-2 my-5 d-none" id="ticket">
+                <div class="row border bg-white rounded g-2 my-5 d-none px-3" id="ticket">
                     <h1 class="text-center">Il tuo biglietto</h1>
 
-                    <table class="table table-danger">
+                    <table class="table table-danger table-bordered rounded-3 shadow">
                         <thead>
                             <tr>
                                 <th scope="col">Passenger name</th>
@@ -71,8 +72,8 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td id="ticketCompleteName"></td>
-                                <td id="ticketDistance"></td>
+                                <td id="ticketCompleteName">-</td>
+                                <td id="ticketDistance">-</td>
                                 <td id="ticketCode"></td>
                                 <td id="ticketPrice"></td>
                             </tr>
