@@ -22,46 +22,48 @@
     <main>
         <div class="container-fluid bg-primary">
             <div class="container py-5">
-                <div class="row border bg-white rounded g-2 px-3">
-                    <h1 class="text-center">Calcolo prezzo biglietto</h1>
-
-                    <form>
+                <div class=" border bg-white rounded  px-3">
+                    <h1 class="text-center py-2">Calcolo prezzo biglietto</h1>
+                    <form class="row g-2">
                         <!-- NAME INPUT -->
-                        <div class="mb-3">
+                        <div class="col-md-4">
                             <label for="inputName" class="form-label">Name</label>
                             <input type="text" class="form-control" id="inputName">
                         </div>
 
                         <!-- SURNAME INPUT -->
-                        <div class="mb-3">
+                        <div class="col-md-4">
                             <label for="inputSurname" class="form-label">Surname</label>
                             <input type="text" class="form-control" id="inputSurname">
                         </div>
 
                         <!-- KM INPUT -->
-                        <div class="mb-3">
+                        <div class="col-md-2">
                             <label for="inputKm" class="form-label">Km da percorrere</label>
                             <input type="number" class="form-control" id="inputKm">
                         </div>
 
                         <!-- AGE INPUT -->
-                        <label for="submitBtn" class="form-label">Age range</label>
-                        <select class="form-select" id="inputAge">
-                            <option selected>Select age range</option>
-                            <option value="underage">Underage</option>
-                            <option value="middleAge">Between 18 and 65</option>
-                            <option value="overAge">Over 65</option>
-                        </select>
+                        <div class="col-md-2">
+                            <label for="submitBtn" class="form-label">Age range</label>
+                            <select class="form-select" id="inputAge">
+                                <option selected>Select age range</option>
+                                <option value="underage">Underage</option>
+                                <option value="middleAge">Between 18 and 65</option>
+                                <option value="overAge">Over 65</option>
+                            </select>
+                        </div>
 
-                        <button type="submit" class="btn btn-primary my-3" id="submitBtn">Submit</button>
+                        <div class="col-md-12 text-center">
+                            <button type="submit" class="btn btn-primary my-3" id="submitBtn">Submit</button>
+                        </div>
                     </form>
-
                 </div>
 
                 <div class="row border bg-white rounded g-2 my-5 d-none px-3" id="ticket">
                     <h1 class="text-center">Il tuo biglietto</h1>
 
-                    <table class="table table-danger table-bordered rounded-3 shadow">
+                    <table class="table table-danger table-bordered rounded-3 shadow my-3">
                         <thead>
                             <tr>
                                 <th scope="col">Passenger name</th>
